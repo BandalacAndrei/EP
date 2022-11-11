@@ -4,15 +4,19 @@ body{
     background-repeat: no-repeat;
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
 .container{
-max-width: 960px;
+max-width: 1000px;
 margin: 0 auto;
 display: flex;
+flex-wrap: nowrap;
+margin-top: 30px;
 }
 .partleft{
-width: 40%;
+width: 800px;
 }   
+
 .orarul {
 position: relative;
 background: #f8f8f8;
@@ -37,4 +41,181 @@ margin-bottom: 20px;
     font-weight: bold;
     padding: 10px 30px;
     text-decoration: none;
+}
+.search{
+    display: flex;
+    margin-top: 20px;
+}
+.search input{
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+    
+}
+
+.search span svg{
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 13px;
+}
+.grupe{
+    overflow-y:scroll;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    height: 15%;
+    padding-left: 15px;
+}
+
+#zile{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 5px;
+}
+#weeks{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+#semestru{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+#tabelpart1{
+display: grid;
+grid-template-columns: 2fr repeat(7, 1fr);
+grid-template-rows: repeat(8,1fr);
+height: 200px;
+margin-top: 20px;
+}
+.tabel1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: #666666 1px solid;
+    border-right:#666666 1px solid ;
+    background-color: #FFFFFF;
+}
+.tabelcuverde{
+    background-color: #25975A;
+    border: 1px solid white;
+    color: #FFFFFF;
+    text-align: center;
+}
+.tip1{
+    display: flex;
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+.tip2{
+    display: flex;
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+.downloadorar{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row: 1 100%;
+    margin-top: 20px;
+    
+
+}
+.descarca{
+    background-color: #25975A;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+}
+.pdf {
+    display: flex;
+justify-content: center;
+color: #f8f8f8;
+text-decoration: none;
+}
+.student{
+    text-align: center;  
+    opacity: 0.5;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+.student a{
+    color: #f8f8f8;
+    text-decoration: none;
+}
+.student3{
+    width:43px;
+    height: 30px;
+    float: left;
+}
+.ex{
+    background-color: #f0506e;
+    border-radius: 2px;
+}
+.exam{
+display: flex;
+justify-content: center;
+color: #f8f8f8;
+text-decoration: none;
+
+}
+.notwork{
+    display: flex;
+    width: 97%;
+    margin-top: 20px;
+    background: #edfbf6;
+    color: #32d296;
+    height: 45px;
+    align-items: center;
+    padding-left: 15px;   
+}
+.partright{
+ width: 100%;
+ margin-left: 40px;
+
+}
+#logogreen{
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.usarbtxt{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.tbright{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    grid-template-rows: repeat(7,1fr);
+    height: 500px;
+
+    
+}
+.tb2-green{
+    display: flex;
+    background-color: #25975A;
+    border: #FFFFFF 1px solid;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.tb2{
+    background-color: #edfbf6;
+    border-top: #666666 1px solid;
 }
